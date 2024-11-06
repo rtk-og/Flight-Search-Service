@@ -169,11 +169,6 @@ The Flight and Search Service interacts with the MySQL database to store and ret
 
 Ensure that you have set up the database connection details correctly in the configuration file of the Flight and Search Service.
 
-## RabbitMQ Integration
-
-The Flight and Search Service can integrate with RabbitMQ, the message queue system, to send notifications and updates to other microservices, such as the Booking Service. This allows real-time communication and synchronization between different components of the Flight Booking System.
-
-Make sure to configure the RabbitMQ connection details in the configuration file of the Flight and Search Service if integration with RabbitMQ is required.
 
 ## Setup and Configuration
 
@@ -222,5 +217,4 @@ We would like to acknowledge the following resources and libraries that contribu
 
 - Node.js: https://nodejs.org/
 - MySQL: https://www.mysql.com/
-- RabbitMQ: https://www.rabbitmq.com/
 - Other dependencies mentioned in the `package.json` file.
