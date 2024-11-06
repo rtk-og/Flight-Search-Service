@@ -4,25 +4,25 @@ This project is a Flight Booking System built using Node.js and MySQL, following
 
 ## Microservices
 
-1. [Authentication Service](https://github.com/Pratik-Sarkate/Authentication-Service1)
+1. [Authentication Service]
 
    - Responsible for user authentication and authorization.
    - Manages user accounts, login, and registration.
    - Generates and verifies JSON Web Tokens (JWT) for secure API access.
 
-2. [API Gateway](https://github.com/Pratik-Sarkate/API-Gateway1)
+2. [API Gateway]
 
    - Serves as the entry point for external requests to the system.
    - Provides a unified API interface for clients to communicate with various microservices.
    - Performs request validation, rate limiting, and routing to the appropriate microservice.
 
-3. [Booking Service](https://github.com/Pratik-Sarkate/Booking-Service1)
+3. [Booking Service]
 
    - Handles flight bookings and related operations.
    - Allows users to search for available flights, select seats, and make reservations.
    - Manages booking details and communicates with the flight and search service.
 
-4. [Flight and Search Service](https://github.com/Pratik-Sarkate/Flight-Search-Service1)
+4. [Flight and Search Service]
 
    - Manages flight information, including available seats, prices, and schedules.
    - Provides search functionality for users to find flights based on criteria such as origin, destination, and date.
